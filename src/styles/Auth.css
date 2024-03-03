@@ -1,0 +1,23 @@
+.auth {
+    text-align: center;
+}
+
+.auth button {
+    position: absolute; /* Position the button relative to its closest positioned ancestor */
+    top: 18px; /* Align to the top of the container */
+    right: 10px; /* Align to the right of the container */
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #735DA5;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+  }
+
+  
+  .auth button:hover {
+    background-color: #3f2875; /* New background color on hover */
+  }

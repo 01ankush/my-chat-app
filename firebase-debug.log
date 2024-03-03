@@ -1,0 +1,68 @@
+[debug] [2024-02-27T15:26:41.329Z] ----------------------------------------------------------------------
+[debug] [2024-02-27T15:26:41.332Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\artim\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-27T15:26:41.333Z] CLI Version:   13.3.1
+[debug] [2024-02-27T15:26:41.333Z] Platform:      win32
+[debug] [2024-02-27T15:26:41.333Z] Node Version:  v20.11.1
+[debug] [2024-02-27T15:26:41.334Z] Time:          Tue Feb 27 2024 20:56:41 GMT+0530 (India Standard Time)
+[debug] [2024-02-27T15:26:41.337Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-27T15:26:41.343Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-27T15:26:41.343Z] > authorizing via signed-in user (ankushkothiyal2012@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\artim\OneDrive\Desktop\chat\my-chat-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-27T15:30:04.614Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-02-27T15:30:05.705Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-02-27T15:30:05.706Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project let-s-chat-16a82 (Let's Chat) 
+[info] 
+=== Firestore Setup
+[debug] [2024-02-27T15:30:12.582Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/let-s-chat-16a82/services/firestore.googleapis.com [none]
+[debug] [2024-02-27T15:30:12.582Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/let-s-chat-16a82/services/firestore.googleapis.com x-goog-quota-user=projects/let-s-chat-16a82
+[debug] [2024-02-27T15:30:14.447Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/let-s-chat-16a82/services/firestore.googleapis.com 200
+[debug] [2024-02-27T15:30:14.447Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/let-s-chat-16a82/services/firestore.googleapis.com [omitted]
+[debug] [2024-02-27T15:30:14.448Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/let-s-chat-16a82/databases/(default) [none]
+[debug] [2024-02-27T15:30:14.733Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/let-s-chat-16a82/databases/(default) 200
+[debug] [2024-02-27T15:30:14.734Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/let-s-chat-16a82/databases/(default) {"name":"projects/let-s-chat-16a82/databases/(default)","uid":"1eb7479a-7f00-4692-8a9f-d5f55ab805fe","createTime":"2024-02-27T08:36:45.357768Z","updateTime":"2024-02-27T08:36:45.357768Z","locationId":"asia-south1","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2024-02-27T14:30:14.757359Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"j","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","etag":"IK60nJ/ry4QDMMH0koePy4QD"}
+[debug] [2024-02-27T15:30:14.734Z] database_type: FIRESTORE_NATIVE
+[debug] [2024-02-27T15:30:14.734Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-27T15:30:14.735Z] > authorizing via signed-in user (ankushkothiyal2012@gmail.com)
+[debug] [2024-02-27T15:30:14.735Z] [iam] checking project let-s-chat-16a82 for permissions ["firebase.projects.get"]
+[debug] [2024-02-27T15:30:14.736Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/let-s-chat-16a82:testIamPermissions [none]
+[debug] [2024-02-27T15:30:14.736Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/let-s-chat-16a82:testIamPermissions x-goog-quota-user=projects/let-s-chat-16a82
+[debug] [2024-02-27T15:30:14.736Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/let-s-chat-16a82:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-02-27T15:30:16.242Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/let-s-chat-16a82:testIamPermissions 200
+[debug] [2024-02-27T15:30:16.242Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/let-s-chat-16a82:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2024-02-27T15:30:48.097Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/let-s-chat-16a82/releases pageSize=10&pageToken=
+[debug] [2024-02-27T15:30:49.812Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/let-s-chat-16a82/releases 200
+[debug] [2024-02-27T15:30:49.812Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/let-s-chat-16a82/releases {"releases":[{"name":"projects/let-s-chat-16a82/releases/cloud.firestore","rulesetName":"projects/let-s-chat-16a82/rulesets/9b67d624-728e-410b-ad48-2bbabfa97af9","createTime":"2024-02-27T08:36:53.763974Z","updateTime":"2024-02-27T08:36:53.763974Z"}]}
+[debug] [2024-02-27T15:30:49.812Z] Found ruleset: projects/let-s-chat-16a82/rulesets/9b67d624-728e-410b-ad48-2bbabfa97af9
+[debug] [2024-02-27T15:30:49.813Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/let-s-chat-16a82/rulesets/9b67d624-728e-410b-ad48-2bbabfa97af9 [none]
+[debug] [2024-02-27T15:30:51.190Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/let-s-chat-16a82/rulesets/9b67d624-728e-410b-ad48-2bbabfa97af9 200
+[debug] [2024-02-27T15:30:51.191Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/let-s-chat-16a82/rulesets/9b67d624-728e-410b-ad48-2bbabfa97af9 [omitted]
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
