@@ -3,7 +3,7 @@
 import OpenAI from 'openai';
 
 const chatCompletion = async (prompt) => {
-  const OPENAI_API_KEY = "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";
+  const OPENAI_API_KEY = "your-api-key";
   const openai = new OpenAI({apiKey: OPENAI_API_KEY,dangerouslyAllowBrowser: true});
   const aiModel = "gpt-3.5-turbo-1106";
   const messages = [
