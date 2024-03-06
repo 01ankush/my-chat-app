@@ -1,5 +1,5 @@
 # Access the working video of the chat app using below link:
-[Video link](https://drive.google.com/file/d/1i25mrZhHe0l8wAwHEvURjR4Sy56NwNJw/view?usp=sharing)
+[Video link](https://youtu.be/AAk-d107V6I)
 
 
 # Getting Started with Create React App
